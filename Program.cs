@@ -47,7 +47,7 @@ namespace FinanceTaskOne
             app.UseSession();
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Product}/{action=GetAllProducts}/{id?}");
+                pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
         }
